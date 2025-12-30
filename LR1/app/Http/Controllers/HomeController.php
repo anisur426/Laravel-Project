@@ -2,7 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Student;
 use Illuminate\Http\Request;
+
+
 
 class HomeController extends Controller
 {
@@ -10,8 +13,12 @@ class HomeController extends Controller
      * Display a listing of the resource.
      */
     public function index()
+
+
+
     {
-        return view('home');
+        $student = Student::all();
+        return view('home', ['students' => $student, 'title'=>"All student"]);
     }
 
     /**
@@ -29,7 +36,7 @@ class HomeController extends Controller
     {
         return view('contact');
     }
-       public function gallery()
+    public function gallery()
     {
         return view('gallery');
     }
