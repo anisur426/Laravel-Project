@@ -14,11 +14,12 @@
          <ul class="sidebar-menu" data-widget="tree">
 
 
-             <li class="treeview"> <a href="#"> <i class="ti-email"></i> <span>Inbox</span> <span class="pull-right-container"> <i class="fa fa-angle-left pull-right"></i> </span> </a>
+             <li class="treeview"> <a href="#"> <i class="ti-email"></i> <span>Products</span> <span class="pull-right-container"> <i class="fa fa-angle-left pull-right"></i> </span> </a>
                  <ul class="treeview-menu">
-                     <li><a href="apps-mailbox.html"><i class="fa fa-angle-right"></i> Mailbox</a></li>
-                     <li><a href="apps-mailbox-detail.html"><i class="fa fa-angle-right"></i> Mailbox Detail</a></li>
-                     <li><a href="apps-compose-mail.html"><i class="fa fa-angle-right"></i> Compose Mail</a></li>
+                     <li><a href="{{url('/product')}}"><i class="fa fa-angle-right"></i>All product</a></li>
+                     <li><a href="{{url('/product/create')}}"><i class="fa fa-angle-right"></i>Add product</a></li>
+                     <li><a href="{{ url('/category')}}"><i class="fa fa-angle-right"></i> Category</a></li>
+                     <li><a href="{{ url('/category/create')}}"><i class="fa fa-angle-right"></i>Add Category</a></li>
                  </ul>
              </li>
 

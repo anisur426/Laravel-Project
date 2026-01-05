@@ -2,17 +2,19 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Booking;
+use App\Models\Category;
 use Illuminate\Http\Request;
 
-class BookingController extends Controller
+class CategoryController extends Controller
 {
     /**
      * Display a listing of the resource.
      */
     public function index()
     {
-        //
+        $cats = Category::all();
+        // dd($cats);
+        return view('backend.category.index', compact('cats'));
     }
 
     /**
@@ -20,7 +22,7 @@ class BookingController extends Controller
      */
     public function create()
     {
-        //
+        return view('backend.category.create');
     }
 
     /**
@@ -34,7 +36,7 @@ class BookingController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(Booking $booking)
+    public function show(Category $category)
     {
         //
     }
@@ -42,15 +44,15 @@ class BookingController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(Booking $booking)
+    public function edit(Category $category)
     {
-        //
+        return view('backend.category.edit');
     }
 
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, Booking $booking)
+    public function update(Request $request, Category $category)
     {
         //
     }
@@ -58,7 +60,7 @@ class BookingController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(Booking $booking)
+    public function destroy(Category $category)
     {
         //
     }

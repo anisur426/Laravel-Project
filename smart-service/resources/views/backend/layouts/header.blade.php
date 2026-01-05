@@ -1,12 +1,12 @@
-  <header class="main-header"> 
-    <!-- Logo --> 
-    <a href="index.html" class="logo blue-bg"> 
-    <!-- mini logo for sidebar mini 50x50 pixels --> 
-    <span class="logo-mini"><img src="dist/img/logo-small.png" alt=""></span> 
-    <!-- logo for regular state and mobile devices --> 
-    <span class="logo-lg"><img src="dist/img/logo.png" alt=""></span> </a> 
+  <header class="main-header">
+    <!-- Logo -->
+    <a href="index.html" class="logo blue-bg">
+      <!-- mini logo for sidebar mini 50x50 pixels -->
+      <span class="logo-mini"><img src="dist/img/logo-small.png" alt=""></span>
+      <!-- logo for regular state and mobile devices -->
+      <span class="logo-lg"><img src="dist/img/logo.png" alt=""></span> </a>
     <!-- Header Navbar -->
-    <nav class="navbar blue-bg navbar-static-top"> 
+    <nav class="navbar blue-bg navbar-static-top">
       <!-- Sidebar toggle button-->
       <ul class="nav navbar-nav pull-left">
         <li><a class="sidebar-toggle" data-toggle="push-menu" href=""></a> </li>
@@ -15,35 +15,35 @@
         <ul class="nav navbar-nav">
           <!-- Messages -->
           <li class="dropdown messages-menu"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <i class="fa fa-envelope-o"></i>
-            <div class="notify"> <span class="heartbit"></span> <span class="point"></span> </div>
+              <div class="notify"> <span class="heartbit"></span> <span class="point"></span> </div>
             </a>
             <ul class="dropdown-menu">
               <li class="header">You have 4 new messages</li>
               <li>
                 <ul class="menu">
                   <li><a href="#">
-                    <div class="pull-left"><img src="dist/img/img1.jpg" class="img-circle" alt="User Image"> <span class="profile-status online pull-right"></span></div>
-                    <h4>Alex C. Patton</h4>
-                    <p>I've finished it! See you so...</p>
-                    <p><span class="time">9:30 AM</span></p>
+                      <div class="pull-left"><img src="dist/img/img1.jpg" class="img-circle" alt="User Image"> <span class="profile-status online pull-right"></span></div>
+                      <h4>Alex C. Patton</h4>
+                      <p>I've finished it! See you so...</p>
+                      <p><span class="time">9:30 AM</span></p>
                     </a></li>
                   <li><a href="#">
-                    <div class="pull-left"><img src="dist/img/img3.jpg" class="img-circle" alt="User Image"> <span class="profile-status offline pull-right"></span></div>
-                    <h4>Nikolaj S. Henriksen</h4>
-                    <p>I've finished it! See you so...</p>
-                    <p><span class="time">10:15 AM</span></p>
+                      <div class="pull-left"><img src="dist/img/img3.jpg" class="img-circle" alt="User Image"> <span class="profile-status offline pull-right"></span></div>
+                      <h4>Nikolaj S. Henriksen</h4>
+                      <p>I've finished it! See you so...</p>
+                      <p><span class="time">10:15 AM</span></p>
                     </a></li>
                   <li><a href="#">
-                    <div class="pull-left"><img src="dist/img/img2.jpg" class="img-circle" alt="User Image"> <span class="profile-status away pull-right"></span></div>
-                    <h4>Kasper S. Jessen</h4>
-                    <p>I've finished it! See you so...</p>
-                    <p><span class="time">8:45 AM</span></p>
+                      <div class="pull-left"><img src="dist/img/img2.jpg" class="img-circle" alt="User Image"> <span class="profile-status away pull-right"></span></div>
+                      <h4>Kasper S. Jessen</h4>
+                      <p>I've finished it! See you so...</p>
+                      <p><span class="time">8:45 AM</span></p>
                     </a></li>
                   <li><a href="#">
-                    <div class="pull-left"><img src="dist/img/img4.jpg" class="img-circle" alt="User Image"> <span class="profile-status busy pull-right"></span></div>
-                    <h4>Florence S. Kasper</h4>
-                    <p>I've finished it! See you so...</p>
-                    <p><span class="time">12:15 AM</span></p>
+                      <div class="pull-left"><img src="dist/img/img4.jpg" class="img-circle" alt="User Image"> <span class="profile-status busy pull-right"></span></div>
+                      <h4>Florence S. Kasper</h4>
+                      <p>I've finished it! See you so...</p>
+                      <p><span class="time">12:15 AM</span></p>
                     </a></li>
                 </ul>
               </li>
@@ -52,35 +52,35 @@
           </li>
           <!-- Notifications  -->
           <li class="dropdown messages-menu"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <i class="fa fa-bell-o"></i>
-            <div class="notify"> <span class="heartbit"></span> <span class="point"></span> </div>
+              <div class="notify"> <span class="heartbit"></span> <span class="point"></span> </div>
             </a>
             <ul class="dropdown-menu">
               <li class="header">Notifications</li>
               <li>
                 <ul class="menu">
                   <li><a href="#">
-                    <div class="pull-left icon-circle red"><i class="icon-lightbulb"></i></div>
-                    <h4>Alex C. Patton</h4>
-                    <p>I've finished it! See you so...</p>
-                    <p><span class="time">9:30 AM</span></p>
+                      <div class="pull-left icon-circle red"><i class="icon-lightbulb"></i></div>
+                      <h4>Alex C. Patton</h4>
+                      <p>I've finished it! See you so...</p>
+                      <p><span class="time">9:30 AM</span></p>
                     </a></li>
                   <li><a href="#">
-                    <div class="pull-left icon-circle blue"><i class="fa fa-coffee"></i></div>
-                    <h4>Nikolaj S. Henriksen</h4>
-                    <p>I've finished it! See you so...</p>
-                    <p><span class="time">1:30 AM</span></p>
+                      <div class="pull-left icon-circle blue"><i class="fa fa-coffee"></i></div>
+                      <h4>Nikolaj S. Henriksen</h4>
+                      <p>I've finished it! See you so...</p>
+                      <p><span class="time">1:30 AM</span></p>
                     </a></li>
                   <li><a href="#">
-                    <div class="pull-left icon-circle green"><i class="fa fa-paperclip"></i></div>
-                    <h4>Kasper S. Jessen</h4>
-                    <p>I've finished it! See you so...</p>
-                    <p><span class="time">9:30 AM</span></p>
+                      <div class="pull-left icon-circle green"><i class="fa fa-paperclip"></i></div>
+                      <h4>Kasper S. Jessen</h4>
+                      <p>I've finished it! See you so...</p>
+                      <p><span class="time">9:30 AM</span></p>
                     </a></li>
                   <li><a href="#">
-                    <div class="pull-left icon-circle yellow"><i class="fa  fa-plane"></i></div>
-                    <h4>Florence S. Kasper</h4>
-                    <p>I've finished it! See you so...</p>
-                    <p><span class="time">11:10 AM</span></p>
+                      <div class="pull-left icon-circle yellow"><i class="fa  fa-plane"></i></div>
+                      <h4>Florence S. Kasper</h4>
+                      <p>I've finished it! See you so...</p>
+                      <p><span class="time">11:10 AM</span></p>
                     </a></li>
                 </ul>
               </li>
@@ -100,7 +100,14 @@
               <li role="separator" class="divider"></li>
               <li><a href="#"><i class="icon-gears"></i> Account Setting</a></li>
               <li role="separator" class="divider"></li>
-              <li><a href="#"><i class="fa fa-power-off"></i> Logout</a></li>
+              <li>
+
+                <form action="{{ route('logout') }}" method="post">
+                  <button type="submit" href="#"><i class="fa fa-power-off"></i> Logout</button>
+                  @csrf
+
+                </form>
+              </li>
             </ul>
           </li>
           <!-- Control Sidebar Toggle Button -->
